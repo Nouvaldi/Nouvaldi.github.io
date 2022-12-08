@@ -159,11 +159,15 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem;
     margin: 0.5rem;
 }
 .contact .ctc p{
     padding: 0 0.5rem;
     margin: 0;
+}
+.contact .redirect{
+    background-color: orangered;
 }
 @media screen and (max-width: 768px){
     .contact .contact-container{
