@@ -137,7 +137,7 @@ nav a{
         width: 100%;
     }
     .home .right img{
-        width: 30vw;
+        width: 60%;
     }
 }
 
@@ -200,7 +200,7 @@ nav a{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        width: 36vw;
+        width: 80%;
         height: 36vh;
         padding: 0.5rem;
         margin: 1rem;
@@ -306,11 +306,15 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem;
     margin: 0.5rem;
 }
 .contact .ctc p{
     padding: 0 0.5rem;
     margin: 0;
+}
+.contact .redirect{
+    background-color: orangered;
 }
 @media screen and (max-width: 768px){
     .contact .contact-container{
